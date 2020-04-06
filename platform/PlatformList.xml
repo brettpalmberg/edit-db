@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformList>
+  <PlatformXref PlatformId="1">
+    <TransportXref MediumType="goes-self-timed" MediumId="EXAMPLE_DCPADDR"/>
+    <SiteName NameType="cwms">instrument_site_01</SiteName>
+    <Agency></Agency>
+    <Description>test platform 1</Description>
+    <ConfigName>test_config_1</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>04/06/2020 16:01:36</LastModifyTime>
+  </PlatformXref>
+</PlatformList>

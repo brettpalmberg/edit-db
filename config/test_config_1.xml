@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="test_config_1">
+  <Description></Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>sensor_1</SensorName>
+    <DataType Standard="CWMS" Code="Height"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="default_script_01">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="STANDARD">3x(1)</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

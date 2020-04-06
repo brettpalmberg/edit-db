@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RoutingSpec Name="production">
+  <IsProduction>true</IsProduction>
+  <DataSource Name="cdadata" Type="lrgs">
+    <DataSourceArg>
+      port=16003, hostname=cdadata.wcda.noaa.gov, username=your_DDS_user_name
+    </DataSourceArg>
+  </DataSource>
+  <EnableEquations>false</EnableEquations>
+  <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
+  <OutputFormat>human-readable</OutputFormat>
+  <OutputTimeZone>UTC</OutputTimeZone>
+  <PresentationGroupName>CWMS-English</PresentationGroupName>
+  <ConsumerType>directory</ConsumerType>
+  <ConsumerArg>/opendcs_output</ConsumerArg>
+  <SinceTime>now - 30 minutes</SinceTime>
+  <RoutingSpecNetworkList Name="hhd_instruments"/>
+  <RoutingSpecProperty PropertyName="sc:RT_SETTLE_DELAY">
+    true
+  </RoutingSpecProperty>
+  <RoutingSpecProperty PropertyName="rs.timeApplyTo">
+    l
+  </RoutingSpecProperty>
+</RoutingSpec>

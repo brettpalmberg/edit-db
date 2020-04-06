@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NetworkList Name="hhd_instruments">
+  <TransportMediumType>goes</TransportMediumType>
+  <SiteNameTypePreference>cwms</SiteNameTypePreference>
+  <NetworkListEntry TransportId="EXAMPLE_DCPADDR">
+    <PlatformName>instrument_site_01</PlatformName>
+    <Description></Description>
+  </NetworkListEntry>
+</NetworkList>
